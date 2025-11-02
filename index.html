@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Not A Rickroll</title>
+    <link rel="icon" src="images/eponge_menger.jpg">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/script.js"></script>
+    </head>
+  <body>
+    <h1>Not A Rickroll (if you know where to click)</h1>
+    <div id="rickroll">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=-c7xqiNrNTSDGHJq" title="rickroll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <button id="stop" onclick="stop()">Arrêter le rickroll</button>
+    <div id="cool_music" style="visibility: hidden;">
+      <p>C'est mieux qu'un rickroll, non ?</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sgBldNsK-xw?si=6JGHtNLxbPYln8s9" title="Hymne à l'amour (Edith Piaf)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1vrEljMfXYo?si=mK_P-y2Uy8GGo0ZO" title="Take Me Home, Country Roads (John Denver)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-rh8gMvzPw0?si=lMHw3FF0M3i91Sia" title="Morning Mood (Peer Gynt)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <button id="like" onclick="react_to_like_()">J'adore ces musiques !!!</button>
+      <button id="back_to_rick" onclick="rickroll_()">Finalement, je préfère me faire rickroller !</button>
+    </div>
+    <div id="react_to_like" style="visibility: hidden;">
+      <p>Excellent choix ! </p>
+      <button id="I_like_climbing" onclick="react_to_climber_()">Clique ici si tu aimes grimper (et manger du chocolat)</button>
+    </div>
+    <div id="react_to_climber" style="visibility: hidden;">
+      <p>Tiens, voilà du chocolat pour ta prochaine session ! Le chocolat, c'est la vie !</p>
+      <img src="images/chocolat_83.jpg" alt="chocolat noir 83% (équateur)">
+      <p>Et n'oublie pas ton casque, car si il ne pleut pas, c'est sortie falaise !</p>
+      <img src="images/casque_escalade.jpg" alt="casque d'escalade de marque Simond" style="width: 200px; height: 200px;">
+    </div>
+  </body>
+</html>

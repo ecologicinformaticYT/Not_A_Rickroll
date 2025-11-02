@@ -1,0 +1,15 @@
+h1{
+    color: gold;
+    background-color: black;
+
+}
+
+button{
+    color: blue;
+    background-color: gray;
+    height: 12%;
+    width: 25%;
+    margin-left: 0.5%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
+}
